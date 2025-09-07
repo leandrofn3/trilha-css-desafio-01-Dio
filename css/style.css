@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Raleway;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    max-width: 144rem;
+    max-width: 100vw;
+    background-color: black;
+}
+
+.banner {
+    border-bottom: 0.1rem solid #33A8DB;
+    width: 100%;
+    height: 60.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    font-size: 1.6rem;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    width: 42rem;
+    height: 4.6rem;
+}
+
+.banner-content button {
+    background-color: transparent;
+    border: 0.2rem solid #33A8DB;
+    height: 5.7rem;
+    width: 32.6rem;
+    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 26.8rem;
+    height: 26.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .2);
+
+}
+
+.logo img {
+    width: 24.8rem;
+    height: 21.4rem;
+}
+
+#course-content {
+    color: white;
+    height: 53.3rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.course-content-text {
+    width: 79.5rem;
+    height: 32.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 6.8rem;
+}
+
+.course-content-text p {
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 3.2rem;
+    color: white;
+    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.module {
+    width: 53.5rem;
+    height: 5.1rem;
+    border: 0.1rem solid #33A8DB;
+    background-color: #252525;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    font-size: 1.6rem;
+    box-shadow: inset 0 0.3rem 1rem 0.1rem black;
+}
+
+#transform-world {
+    border-top: 0.1rem solid #33A8DB;
+    border-bottom: 0.1rem solid #33A8DB;
+    border-right: 0.1rem solid #33A8DB;
+    height: 36.3rem;
+    background-image: url("../assets/images/woman-code.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#transform-world p {
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
+    width: 24.5rem;
+    margin: 11.1rem 0 0 8.4rem;
+    text-shadow: 0.3rem 0.2rem #33A8DB;
+    text-transform: lowercase;
+}
+
+#professional-challenges {
+    height: 82.0rem;
+    border-bottom: 0.1rem solid #33A8DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#professional-challenges h2 {
+    font-size: 3.rem;
+    font-weight: bold;
+    width: 74.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.7rem;
+    letter-spacing: 0.4rem;
+    margin: 7.2rem 0 7.2rem 0;
+}
+
+#professional-challenges img {
+    height: 42.9rem;
+    width: 65.9rem;
+    margin-bottom: 4rem;
+}
+
+#professional-challenges p {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    text-align: center;
+    width: 79.2rem;
+    margin-bottom: 9.1rem;
+}
+
+footer {
+    height: 16.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer img {
+    height: 4.4rem;
+    width: 31.0rem;
+}
+
+footer p {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    height: 1.9rem;
+}
+
+footer p a {
+    color: #33A8DB;
+    text-decoration: none;
+}
