@@ -48,8 +48,8 @@ Durante o desafio, pratiquei:
 
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/leandrofn3/trilha-css-desafio-01-Dio
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd nome-do-repositorio
+   cd trilha-css-desafio-01-Dio
